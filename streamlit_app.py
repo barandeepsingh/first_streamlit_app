@@ -22,4 +22,4 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 #Let's put a pick list here
 streamlist.multiselect("Pick some fruits:",list(my_fruit_list.index))
 
-streamlit.dataframe(my_fruit_list)
+streamlist.dataframe(my_fruit_list)
